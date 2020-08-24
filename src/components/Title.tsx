@@ -6,5 +6,5 @@ type Props = {
 };
 
 export default function Title({ content }: Props) {
-  return <h1>{content}</h1>;
+  return <h1 className="mb-4">{content}</h1>;
 }
